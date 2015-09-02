@@ -21,6 +21,7 @@
         <Button x:Name="btn_Bid" Content="Bid" HorizontalAlignment="Left" Margin="10,215,0,0" VerticalAlignment="Top" Width="75" Height="20"/>
         <Button x:Name="btn_Connect" Content="Connect" HorizontalAlignment="Left" Margin="10,242,0,0" VerticalAlignment="Top" Width="75" Height="20"/>
         <TextBox x:Name="txtb_BidAmount" HorizontalAlignment="Left" Height="23" Margin="90,215,0,0" TextWrapping="Wrap" Text="Bid Amount" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <Label Content="Delete" HorizontalAlignment="Left" Margin="435,262,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
