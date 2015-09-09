@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace AuctionHouseProject
 {
     class Program
-    {//
+    {
         static void Main(string[] args)
         {
         }
