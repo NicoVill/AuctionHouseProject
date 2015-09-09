@@ -4,8 +4,8 @@
         Title="MainWindow" Height="350" Width="725.628">
     <Grid Margin="0,0,2,-6">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="329*"/>
-            <ColumnDefinition Width="29*"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
         <ListView x:Name="listV_ItemList" HorizontalAlignment="Left" Height="200" Margin="10,10,0,0" VerticalAlignment="Top" Width="403">
             <ListView.View>
@@ -21,7 +21,7 @@
         <Button x:Name="btn_Bid" Content="Bid" HorizontalAlignment="Left" Margin="10,215,0,0" VerticalAlignment="Top" Width="75" Height="20"/>
         <Button x:Name="btn_Connect" Content="Connect" HorizontalAlignment="Left" Margin="10,242,0,0" VerticalAlignment="Top" Width="75" Height="20"/>
         <TextBox x:Name="txtb_BidAmount" HorizontalAlignment="Left" Height="23" Margin="90,215,0,0" TextWrapping="Wrap" Text="Bid Amount" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
-        <Label Content="Delete" HorizontalAlignment="Left" Margin="435,262,0,0" VerticalAlignment="Top"/>
+        <Label Content="Delete" HorizontalAlignment="Left" Margin="435,262,0,0" VerticalAlignment="Top" Height="26" Width="44"/>
 
     </Grid>
 </Window>
